@@ -17,7 +17,7 @@ function NavBar() {
                     </ul>
                 </div>
             </div>
-
+            
             <div>
                 <p className="font-bold text-xl">Cart 0</p>
             </div>
