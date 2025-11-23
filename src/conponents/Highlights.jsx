@@ -20,6 +20,28 @@ function Highlights() {
                     </div>
                 ))}
             </div>
+
+            <div className="flex justify-center gap-12 mt-20 max-w-8xl">
+                <div>
+                    <img className="w-3xl rounded-2xl" src="../../public/img/coffee-shop.png" alt="coffee-shop" />
+                </div>
+
+                <div>
+                    <h1 className="text-white font-bold capitalize text-5xl mb-8">Best coffee house in your home town</h1>
+                    <p className="text-white w-2xl mb-8 text-xl">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam harum consectetur. 
+                        Quibusdam animi, iste quisquam natus voluptatum necessitatibus itaque, et consequuntur blanditiis, 
+                        numquam voluptas impedit ipsum dolorem. Voluptatibus, architecto!
+                    </p>
+                      <p className="text-white w-2xl mb-8 text-xl">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam harum consectetur. 
+                        Quibusdam animi, iste quisquam natus voluptatum necessitatibus itaque, et consequuntur blanditiis, 
+                        numquam voluptas impedit ipsum dolorem. Voluptatibus, architecto!
+                    </p>
+                                       
+                    <button className="p-4 bg-amber-500 text-white text-xl rounded-2xl cursor-pointer">Read more</button>
+                </div>
+            </div>
         </section>
     )
 }
