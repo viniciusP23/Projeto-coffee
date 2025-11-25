@@ -5,6 +5,7 @@ import App from './App.jsx'
 import NavBar from './conponents/NavBar.jsx'
 import Hero from './conponents/Hero.jsx'
 import Highlights from "./conponents/Highlights.jsx"
+import Cards from './conponents/Cards.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <NavBar/>
     <Hero/>
     <Highlights/>
+    <Cards/>
   </StrictMode>,
 )
