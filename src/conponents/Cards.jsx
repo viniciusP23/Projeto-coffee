@@ -3,10 +3,10 @@
 function Cards() {
 
     const cards = [
-        { image: "../../public/img/icons8-café-50.png", name: "americano pure grades", description: "the coffee is brewed by first rodsting the green coffee beans", value: "$25" },
-        { image: "../../public/img/icons8-café-64.png", name: "americano pure grades", description: "the coffee is brewed by first rodsting the green coffee beans", value: "$25" },
-        { image: "../../public/img/icons8-café-64.png", name: "americano pure grades", description: "the coffee is brewed by first rodsting the green coffee beans", value: "$25" },
-        { image: "../../public/img/icons8-café-64.png", name: "americano pure grades", description: "the coffee is brewed by first rodsting the green coffee beans", value: "$25" },
+        { image: "../../public/img/Paper-coffee-bag-on-transparent-background-PNG.png", name: "americano pure grades", description: "the coffee is brewed by first rodsting the green coffee beans", value: "$25" },
+        { image: "../../public/img/pngtree-3d-model-of-a-coffee-bag-png-image_15538364.png", name: "americano pure grades", description: "the coffee is brewed by first rodsting the green coffee beans", value: "$25" },
+        { image: "../../public/img/to-go-coffee-cup-with-lid-paper-QJGnN4E-600.jpg", name: "americano pure grades", description: "the coffee is brewed by first rodsting the green coffee beans", value: "$25" },
+        { image: "../../public/img/disposable-coffee-cup-paper-KaE3wN0-600.jpg", name: "americano pure grades", description: "the coffee is brewed by first rodsting the green coffee beans", value: "$25" },
     ]
 
     return (
@@ -23,7 +23,7 @@ function Cards() {
                             <div className=" bg-white p-5 rounded-2xl" key={index}>
 
                                 <div className="bg-white flex justify-center h-60 mb-4">
-                                    <img className="bg-amber-300" src={card.image} alt="" />
+                                    <img src={card.image} alt="" />
                                 </div>
 
                                 <div>
@@ -36,7 +36,7 @@ function Cards() {
 
                                 <div className="flex justify-between items-center mt-8">
                                     <p className="font-bold text-2xl">$25</p>
-                                    <button className="p-2 bg-amber-500 rounded">Order now</button>
+                                    <button className="p-2 bg-amber-500 rounded cursor-pointer hover:bg-amber-400">Order now</button>
                                 </div>
                             </div>
                         ))}
