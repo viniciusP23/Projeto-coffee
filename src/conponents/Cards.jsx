@@ -17,7 +17,7 @@ function Cards() {
     ]
 
     return (
-        <div className="bg-[#1B1B1D] overflow-hidden h-1000">
+        <div className="bg-[#1B1B1D] overflow-hidden">
             <div className="mt-30">
 
                 <div className="flex justify-center">
@@ -77,7 +77,6 @@ function Cards() {
 
 
             </div>
-
 
         </div>
     )
